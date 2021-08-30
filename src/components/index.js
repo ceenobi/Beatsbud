@@ -1,0 +1,8 @@
+export {default as Navbar} from './Navbar/Navbar'
+export {default as Jumbotron} from './Jumbotron/Jumbotron'
+export {default as Home} from './Home/Home'
+export {default as Footer } from './Footer/Footer'
+export {default as Shop } from './Shop/Shop'
+export { default as Product } from './Product/Product'
+export {default as Bag } from './Bag/Bag'
+export { default as Default } from './Default'

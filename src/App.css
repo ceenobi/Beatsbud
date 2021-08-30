@@ -1,0 +1,39 @@
+:root {
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#ffffff;
+  --mainDark:#272727;
+  --mainYellow:#ffa400;
+  --mainRed:#d33631;
+  --lightDark: #9e9e9e;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+font-family: 'Amaranth', 'sans-serif';
+background: var(--mainWhite)!important;
+color: var(--mainDark)!important;
+}
+.text-title{
+  font-family: 'Fira Sans', 'sans-serif' ;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue)
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.cart-icon {
+  cursor: pointer;
+  font-size:1.2rem;
+  color: var(--mainRed)!important;
+}
+a{
+  text-decoration:none!important;
+}
