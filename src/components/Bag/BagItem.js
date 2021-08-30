@@ -11,10 +11,10 @@ export default function BagItem({item, value}) {
                 <img src={image5} style={{width:"5rem", height:"5rem"}} className="img-fluid" alt='product'/>
             </div>
              <div className="col-10 mx-auto col-lg-2">
-                <span className="d-lg-none">product:</span>{name}
+                <span className="d-lg-none">product:</span> {name}
             </div>
             <div className="col-10 mx-auto col-lg-2">
-                <span className="d-lg-none">price:</span>{price}
+                <span className="d-lg-none">price:</span> {price}
             </div>
             <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0">
                 <div className="justify-content-center">
@@ -31,7 +31,7 @@ export default function BagItem({item, value}) {
                     </div>  
             </div>
              <div className="col-10 mx-auto col-lg-2">
-                <strong>item total : &#8358; {total} </strong>  
+                <strong>item total: &#8358;{total} </strong>  
             </div>    
         </div>
     ) 
