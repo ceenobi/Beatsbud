@@ -18,13 +18,13 @@ const Navbar = () => {
         </NavLink>
         <div className='collapse navbar-collapse justify-content-center'id='navbarNavAltMarkup'>
           <div className='navbar-nav'>
-            <NavLink to='/' exact activeClassName='navbar__link--active' className='navbar__link px-5'>
+            <NavLink to='/' exact activeclassname='navbar__link--active' className='navbar__link px-5'>
               HOME
             </NavLink>
-            <NavLink to='/shop' activecClassName='navbar__link--active' className='navbar__link px-5'>
+            <NavLink to='/shop' activeclassname='navbar__link--active' className='navbar__link px-5'>
               SHOP
             </NavLink>
-            <NavLink to='/!' activeClassName='navbar__link--active' className='navbar__link px-5'>
+            <NavLink to='/!' activeclassname='navbar__link--active' className='navbar__link px-5'>
               SUPPORT
             </NavLink>
           </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
         <div className='d-lg-none'>
           <i className='bi bi-list' data-bs-toggle='offcanvas' data-bs-target='#offcanvasRight'aria-controls='offcanvasRight'></i>
-          <div className='offcanvas offcanvas-end' tabindex='-1' id='offcanvasRight' aria-labelledby='offcanvasRightLabel'>
+          <div className='offcanvas offcanvas-end'  id='offcanvasRight' aria-labelledby='offcanvasRightLabel'>
             <div className='offcanvas-header'>
               <h5 id='offcanvasRightLabel'>
                 <img src='https://res.cloudinary.com/ceenobi/image/upload/v1627861199/Gadgets/taskade-icon_fov9a1.svg'
@@ -45,16 +45,16 @@ const Navbar = () => {
             </div>
             <div className='offcanvas-body'>
               <div className='d-flex flex-column align-items-center'>
-                <NavLink to='/' exact activeclassName='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
+                <NavLink to='/' exact activeclassname='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
                   Home
                 </NavLink>
-                <NavLink to='/shop' activeClassName='navbar__link--active' className='navbar__link py-4 border-bottom fw-bold'>
+                <NavLink to='/shop' activeclassname='navbar__link--active' className='navbar__link py-4 border-bottom fw-bold'>
                   Shop
                 </NavLink>
-                <NavLink to='/!' activeClassName='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
+                <NavLink to='/!' activeclassname='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
                   Support
                 </NavLink>
-                <NavLink to='/!' activeClassName='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
+                <NavLink to='/!' activeclassname='navbar__link--active'className='navbar__link py-4 border-bottom fw-bold'>
                   Other
                 </NavLink>
               </div>

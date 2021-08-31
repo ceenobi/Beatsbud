@@ -16,11 +16,11 @@ const Modal = props => {
               <i className='bi bi-x' onClick={props.onClose} />
             </div>
             <div className='modal-body'>
-              <div class='form-outline'>
+              <div className='form-outline'>
                 <input
                   type='search'
                   id='form1'
-                  class='form-control'
+                  className='form-control'
                   placeholder='Search Beats'
                   aria-label='Search'
                 />

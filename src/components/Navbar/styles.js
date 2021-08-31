@@ -30,16 +30,5 @@ export const NavWrapper = styled.nav`
     width: 40px;
     height: auto;
   }
-  .modal-backdrop {
-    display: none;
-    z-index: 1040 !important;
-    background-color: #000 !important;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .modal-content {
-    margin: 2px auto;
-    z-index: 1100 !important;
-  }
+ 
 `
