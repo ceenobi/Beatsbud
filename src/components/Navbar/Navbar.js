@@ -33,7 +33,7 @@ const Navbar = () => {
         <i className='bi bi-search' onClick={()=>setShow(true)}/>
         <Modal onClose={()=>setShow(false)}show={show}/>
 
-        <div className='d-lg-none'>
+        <div className='d-lg-none d-block'>
           <i className='bi bi-list' data-bs-toggle='offcanvas' data-bs-target='#offcanvasRight'aria-controls='offcanvasRight'role="button"></i>
           <div className='offcanvas offcanvas-end'  id='offcanvasRight' aria-labelledby='offcanvasRightLabel'>
             <div className='offcanvas-header'>
