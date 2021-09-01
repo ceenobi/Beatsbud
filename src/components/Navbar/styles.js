@@ -30,5 +30,7 @@ export const NavWrapper = styled.nav`
     width: 40px;
     height: auto;
   }
- 
+ .modal-backdrop.show{
+   opacity:0!important;
+ }
 `

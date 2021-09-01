@@ -44,6 +44,18 @@ export const HomeWrapper = styled.div`
     transform: scale(1.1);
     transition: all 1s linear;
   }
+  .shift {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left:0
+  }
+  .stay{
+    position:relative;
+  }
+  .bi-x {
+    font-size:30px;
+  }
   @media (min-width: 992px) {
     .backdrop {
       margin-top: 3rem;
