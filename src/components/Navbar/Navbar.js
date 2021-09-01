@@ -37,10 +37,10 @@ const Navbar = () => {
           <i className='bi bi-list' data-bs-toggle='offcanvas' data-bs-target='#offcanvasRight'aria-controls='offcanvasRight'role="button"></i>
           <div className='offcanvas offcanvas-end'  id='offcanvasRight' aria-labelledby='offcanvasRightLabel'>
             <div className='offcanvas-header'>
-              <h5 id='offcanvasRightLabel'className="offcanvas-title">
+              <div id='offcanvasRightLabel'>
                 <img src='https://res.cloudinary.com/ceenobi/image/upload/v1627861199/Gadgets/taskade-icon_fov9a1.svg'
                   className='img-fluid logo'alt='logo'/>
-              </h5>
+              </div>
               <button type='button'className='btn-close text-reset' data-bs-dismiss='offcanvas'aria-label='Close'></button>
             </div>
             <div className='offcanvas-body'>
