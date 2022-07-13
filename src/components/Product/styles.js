@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProductWrapper = styled.div`
   .overlay {
     position: absolute;
-    top: 50%;
+    bottom: 5%;
     left: 30%;
     z-index: 4;
   }

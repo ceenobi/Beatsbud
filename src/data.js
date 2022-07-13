@@ -238,6 +238,8 @@ export const storeProducts = [
     id: 9,
   },
 ]
+
+
 export const detailProduct = {
   title: 'ALWAYS-READY WIRELESS EARPHONES',
   name: 'Beats Studio Buds',

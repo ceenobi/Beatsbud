@@ -14,7 +14,7 @@ export default class Footer extends Component {
     
       <div className="row mt-3">
        
-        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           
           <h6 className="text-uppercase fw-bold mb-4">
              <img src='https://res.cloudinary.com/ceenobi/image/upload/v1627861199/Gadgets/taskade-icon_fov9a1.svg' className='img-fluid logo' alt='logo'/>
@@ -23,7 +23,7 @@ export default class Footer extends Component {
        
 
        
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
          
           <h6 className="text-uppercase fw-bold mb-4">
             Products
@@ -105,7 +105,7 @@ export default class Footer extends Component {
   
   <div className="text-center p-4">
     © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://github.com/">ceenobi.com</a>
+    <a className="text-reset fw-bold" href="https://github.com/">{' '}ceenobi.com</a>
   </div>
 
 </footer>

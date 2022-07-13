@@ -10,7 +10,7 @@ export default class Product extends Component {
         return (
             <ProductConsumer>
                 {(value)=> {
-                    const {image2, image3, image4, name, price, inBag, id, color1, color2, color3} = value.detailProduct
+                    const {image2, name, price, inBag, id,} = value.detailProduct
                     
                     return (
                       <ProductWrapper>
@@ -22,11 +22,11 @@ export default class Product extends Component {
                             <div className='col-10 mx-auto col-lg-4 col-md-6 col-sm-6 my-3 px-3'>
                               <div className='back'>
                                 <img src={image2} alt='productcard' className='img-fluid'/>
-                                <div className="overcast">
+                                {/* <div className="overcast">
                                 <p>{color1}</p>
-                                </div>
+                                </div> */}
                                 <div className='overlay'>
-                                  <p className='lead text-center text-white mb-0'>&#8358; {price}</p>
+                                  <p className='lead text-center text-dark mb-0'>&#8358; {price}</p>                                 
                                   <ButtonWrapper disabled={inBag ? true : false}
                                     onClick={() => {value.addToBag(id);value.handleDetail(id)}}>
                                     {inBag ? (<p className='text-capitalize mb-0'disabled> 
@@ -35,7 +35,7 @@ export default class Product extends Component {
                                 </div>
                               </div>
                             </div>
-                            <div className='col-10 mx-auto col-lg-4 col-md-6 col-sm-6 my-3 px-3'>
+                            {/* <div className='col-10 mx-auto col-lg-4 col-md-6 col-sm-6 my-3 px-3'>
                               <div className='back'>
                                 <img src={image3} alt='productcard' className='img-fluid'/>
                                 <div className='overcast'>
@@ -53,9 +53,9 @@ export default class Product extends Component {
                                   </ButtonWrapper>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
 
-                            <div className='col-10 mx-auto col-lg-4 col-md-6 col-sm-6 my-3 px-3'>
+                            {/* <div className='col-10 mx-auto col-lg-4 col-md-6 col-sm-6 my-3 px-3'>
                               <div className='back'>
                                 <img src={image4} alt='productcard' className='img-fluid'/>
                                 <div className='overcast'>
@@ -73,7 +73,7 @@ export default class Product extends Component {
                                   </ButtonWrapper>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <div className='py-5 d-flex justify-content-center'>
                             <Link to='/shop'>
